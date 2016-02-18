@@ -12,6 +12,8 @@
 		76AFCBA81C75CC9100705F13 /* IBColorful.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 76AFCBA71C75CC9100705F13 /* IBColorful.xcscheme */; };
 		76AFCBAB1C75CC9100705F13 /* IBColorful.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AFCBAA1C75CC9100705F13 /* IBColorful.m */; };
 		76AFCBAE1C75CC9100705F13 /* NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AFCBAD1C75CC9100705F13 /* NSObject_Extension.m */; };
+		76AFCBB91C75CCC700705F13 /* IBUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AFCBB61C75CCC700705F13 /* IBUIView.m */; };
+		76AFCBBA1C75CCC700705F13 /* NSObject+MethodSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AFCBB81C75CCC700705F13 /* NSObject+MethodSwizzler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,10 @@
 		76AFCBAC1C75CC9100705F13 /* NSObject_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObject_Extension.h; sourceTree = "<group>"; };
 		76AFCBAD1C75CC9100705F13 /* NSObject_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObject_Extension.m; sourceTree = "<group>"; };
 		76AFCBAF1C75CC9100705F13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76AFCBB51C75CCC700705F13 /* IBUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBUIView.h; sourceTree = "<group>"; };
+		76AFCBB61C75CCC700705F13 /* IBUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBUIView.m; sourceTree = "<group>"; };
+		76AFCBB71C75CCC700705F13 /* NSObject+MethodSwizzler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MethodSwizzler.h"; sourceTree = "<group>"; };
+		76AFCBB81C75CCC700705F13 /* NSObject+MethodSwizzler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MethodSwizzler.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,10 @@
 				76AFCBAA1C75CC9100705F13 /* IBColorful.m */,
 				76AFCBAC1C75CC9100705F13 /* NSObject_Extension.h */,
 				76AFCBAD1C75CC9100705F13 /* NSObject_Extension.m */,
+				76AFCBB51C75CCC700705F13 /* IBUIView.h */,
+				76AFCBB61C75CCC700705F13 /* IBUIView.m */,
+				76AFCBB71C75CCC700705F13 /* NSObject+MethodSwizzler.h */,
+				76AFCBB81C75CCC700705F13 /* NSObject+MethodSwizzler.m */,
 				76AFCBAF1C75CC9100705F13 /* Info.plist */,
 				76AFCBA61C75CC9100705F13 /* Supporting Files */,
 			);
@@ -153,7 +163,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76AFCBB91C75CCC700705F13 /* IBUIView.m in Sources */,
 				76AFCBAB1C75CC9100705F13 /* IBColorful.m in Sources */,
+				76AFCBBA1C75CCC700705F13 /* NSObject+MethodSwizzler.m in Sources */,
 				76AFCBAE1C75CC9100705F13 /* NSObject_Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
