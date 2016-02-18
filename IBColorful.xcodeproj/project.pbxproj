@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76AFCBA21C75CC9100705F13 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFCBA11C75CC9100705F13 /* AppKit.framework */; };
+		76AFCBA41C75CC9100705F13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AFCBA31C75CC9100705F13 /* Foundation.framework */; };
+		76AFCBA81C75CC9100705F13 /* IBColorful.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 76AFCBA71C75CC9100705F13 /* IBColorful.xcscheme */; };
+		76AFCBAB1C75CC9100705F13 /* IBColorful.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AFCBAA1C75CC9100705F13 /* IBColorful.m */; };
+		76AFCBAE1C75CC9100705F13 /* NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AFCBAD1C75CC9100705F13 /* NSObject_Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		76AFCB9E1C75CC9100705F13 /* IBColorful.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IBColorful.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		76AFCBA11C75CC9100705F13 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		76AFCBA31C75CC9100705F13 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		76AFCBA71C75CC9100705F13 /* IBColorful.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = IBColorful.xcscheme; path = IBColorful.xcodeproj/xcshareddata/xcschemes/IBColorful.xcscheme; sourceTree = SOURCE_ROOT; };
+		76AFCBA91C75CC9100705F13 /* IBColorful.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBColorful.h; sourceTree = "<group>"; };
+		76AFCBAA1C75CC9100705F13 /* IBColorful.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBColorful.m; sourceTree = "<group>"; };
+		76AFCBAC1C75CC9100705F13 /* NSObject_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObject_Extension.h; sourceTree = "<group>"; };
+		76AFCBAD1C75CC9100705F13 /* NSObject_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObject_Extension.m; sourceTree = "<group>"; };
+		76AFCBAF1C75CC9100705F13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76AFCB9C1C75CC9100705F13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76AFCBA21C75CC9100705F13 /* AppKit.framework in Frameworks */,
+				76AFCBA41C75CC9100705F13 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76AFCB951C75CC9100705F13 = {
+			isa = PBXGroup;
+			children = (
+				76AFCBA51C75CC9100705F13 /* IBColorful */,
+				76AFCBA01C75CC9100705F13 /* Frameworks */,
+				76AFCB9F1C75CC9100705F13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76AFCB9F1C75CC9100705F13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76AFCB9E1C75CC9100705F13 /* IBColorful.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76AFCBA01C75CC9100705F13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76AFCBA11C75CC9100705F13 /* AppKit.framework */,
+				76AFCBA31C75CC9100705F13 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76AFCBA51C75CC9100705F13 /* IBColorful */ = {
+			isa = PBXGroup;
+			children = (
+				76AFCBA91C75CC9100705F13 /* IBColorful.h */,
+				76AFCBAA1C75CC9100705F13 /* IBColorful.m */,
+				76AFCBAC1C75CC9100705F13 /* NSObject_Extension.h */,
+				76AFCBAD1C75CC9100705F13 /* NSObject_Extension.m */,
+				76AFCBAF1C75CC9100705F13 /* Info.plist */,
+				76AFCBA61C75CC9100705F13 /* Supporting Files */,
+			);
+			path = IBColorful;
+			sourceTree = "<group>";
+		};
+		76AFCBA61C75CC9100705F13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76AFCBA71C75CC9100705F13 /* IBColorful.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76AFCB9D1C75CC9100705F13 /* IBColorful */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76AFCBB21C75CC9100705F13 /* Build configuration list for PBXNativeTarget "IBColorful" */;
+			buildPhases = (
+				76AFCB9A1C75CC9100705F13 /* Sources */,
+				76AFCB9B1C75CC9100705F13 /* Resources */,
+				76AFCB9C1C75CC9100705F13 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IBColorful;
+			productName = IBColorful;
+			productReference = 76AFCB9E1C75CC9100705F13 /* IBColorful.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76AFCB961C75CC9100705F13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "GF Securities";
+				TargetAttributes = {
+					76AFCB9D1C75CC9100705F13 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 76AFCB991C75CC9100705F13 /* Build configuration list for PBXProject "IBColorful" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 76AFCB951C75CC9100705F13;
+			productRefGroup = 76AFCB9F1C75CC9100705F13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76AFCB9D1C75CC9100705F13 /* IBColorful */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76AFCB9B1C75CC9100705F13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76AFCBA81C75CC9100705F13 /* IBColorful.xcscheme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76AFCB9A1C75CC9100705F13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76AFCBAB1C75CC9100705F13 /* IBColorful.m in Sources */,
+				76AFCBAE1C75CC9100705F13 /* NSObject_Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		76AFCBB01C75CC9100705F13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		76AFCBB11C75CC9100705F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		76AFCBB31C75CC9100705F13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = IBColorful/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.gf.com.IBColorful;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		76AFCBB41C75CC9100705F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = IBColorful/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.gf.com.IBColorful;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76AFCB991C75CC9100705F13 /* Build configuration list for PBXProject "IBColorful" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76AFCBB01C75CC9100705F13 /* Debug */,
+				76AFCBB11C75CC9100705F13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76AFCBB21C75CC9100705F13 /* Build configuration list for PBXNativeTarget "IBColorful" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76AFCBB31C75CC9100705F13 /* Debug */,
+				76AFCBB41C75CC9100705F13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76AFCB961C75CC9100705F13 /* Project object */;
+}
